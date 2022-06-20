@@ -1,0 +1,407 @@
+.nav{
+    display: block;
+    position: sticky;
+    top: 0%;
+    padding: 1%;
+    margin: 15px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.nav li{
+    display: inline;
+    padding: 50px;
+    margin: 1%;
+    padding: 1px;
+}
+a{
+    color: white;  
+    text-decoration: none;  
+}
+
+a:hover{
+    color: blue;  
+    text-decoration: none;  
+}
+.social{
+    text-align: center;
+    font-size: 40px;
+}
+.fa-facebook{
+    color: blue;
+    padding: 20px;
+}
+.fa-twitter{
+    color: aqua;
+    padding: 20px;
+}
+.fa-instagram{
+    color: red;
+    padding: 20px;
+    width: 25px;
+    height: 50px;
+}
+.fa-linkedin{
+    color: skyblue;
+    padding: 20px;
+}
+body{
+    background-image: url(Black-Abstract-Background-Free-Vector-Art-01-scaled-768x0.jpg);
+ }
+
+#hero{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 15px;
+    padding: 10%;
+}
+.s-hero__content-about{
+    font-size: larger;
+}
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 65px;
+    text-align: center;
+}
+.name1{
+    margin-left: 15px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.436);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.name1 span{
+    color: white;
+}
+.scroll-arrow, .scroll-text{
+    text-align: center;
+    font-size: 20px;
+}
+.About me{
+    margin: 0;
+    padding: 0;
+}
+.flex1{
+    display: flex;
+}
+.img{
+    flex: 3;
+}
+.img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 80%;
+    padding: 25%;
+    margin-left: 250px;
+    }
+.name2{
+    flex: 7;
+    margin-right: 500px;
+    margin-left: 250px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sub-name2{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px; 
+    color: rgba(255, 255, 255, 0.436);
+    text-align: justify;
+}
+#sub1{
+    color: white;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+.btn{
+    width: 200px;
+    height: 60px;
+}
+#resume{
+    background-color: white;
+}
+.column1, .section-header-allcaps, .section-skills{
+    text-decoration: underline;
+    padding: 40px;
+    margin: 30px;
+    margin-left: 150px;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration-color: blue;
+}
+.resume__section, .contact{
+    display: flex;
+}
+.columncareer, .column-large-3-tab-12, .column13{
+    flex: 3;
+}
+.column2, .column-large-9-tab-12, .skillbar{
+    flex: 7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 25px;
+    margin: 25px;
+    margin-left: 75px;
+    margin-right: 100px;
+}
+.trainee1, .trainee2, .trainee3{
+    font-style: italic;
+}
+.resume-block__header-date{
+    color: rgba(0, 0, 0, 0.712);
+}
+.resume-block{
+    margin-top: 25px;
+    margin-right: 250px;
+    margin-left: 40px;
+    padding: 5px;
+}
+.resume-description{
+    text-align: justify;
+    line-height: 2.5; 
+}
+.rows-resume__section, .row1{
+    display: flex;
+}
+#htmlbar{
+    background-color: rgba(0, 0, 0, 0.104);
+    width: 100%;
+    height: 65px;
+}
+#htmlb{
+    background-color: black;
+    width: 90%;
+    height: 65px;
+}
+#cssbar{
+    background-color:rgba(0, 0, 0, 0.104);
+    width: 100%;
+    height: 65px;
+}
+#cssb{
+    background-color: black;
+    width: 85%;
+    height: 65px;
+}
+#jscriptbar{
+    background-color: rgba(0, 0, 0, 0.104);
+    width: 100%;
+    height: 65px;
+}
+#jscriptb{
+    background-color: black;
+    width: 70%;
+    height: 65px;
+}
+#pythonbar{
+    background-color: rgba(0, 0, 0, 0.104);
+    width: 100%;
+    height: 65px;
+}
+#pythonb{
+    background-color: black;
+    width: 60%;
+    height: 65px;
+}
+.portfolio{
+    background-color: rgba(240, 252, 255, 0.88);
+}
+.works{
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background-color: antiquewhite;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.sampleworks{
+    display: flex;
+    padding-top: 10px;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-bottom: 100px;
+}
+.item1{
+    flex: 3;
+}
+.item2{
+    flex: 3;
+}
+.item3{
+    flex: 3;
+   
+}
+.folio-item__thumb{
+    width: 55px;
+    height: 70px;
+}
+.need{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 15px;
+}
+.need2{
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 75px;
+    padding-left: 375px;
+    padding-right: 425px;
+    line-height: 50px;
+}
+#need3{
+    color: green;
+}
+.need3{
+    color: blue;
+    text-decoration: none;
+}
+.need3:hover{
+    color: red;
+    background-color: white;
+}
+#bluehouse{
+    padding-bottom: 100px;
+}
+.primary1{
+    border: 20px solid green;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 800px;
+}
+#hello1{
+    padding-top: 30px;
+}
+.hello2{
+    padding: 40px;
+    margin: 30px;
+    margin-left: 150px;
+    line-height: 30px;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hello3{
+    text-decoration: underline;
+    padding: 40px;
+    margin: 30px;
+    margin-left: 150px;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration-color: blue;
+    color: white;
+}
+#hello5{
+    padding: 40px;
+    margin: 30px;
+    margin-left: 150px;
+    margin-right: 850px;
+    font-size: larger;
+}
+.contact1{
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.primary{
+    width: 300px;
+    border-radius: 10px;
+}
+#helloc{
+    background-color: rgb(36, 35, 35);
+    padding: 17%;
+    padding-top: 100px;
+    padding-bottom: 2px;
+}
+
+#hello{
+    color: rgb(223, 230, 230);
+    display: flex;
+    
+}
+#hellol{
+    flex: 2;
+    align-content: center, justify;
+    font-size: 25px;
+    padding-right:100px;
+    line-height: 35px;
+}
+#shello{
+    text-decoration: underline 2px rgb(79, 152, 185);
+}
+#hellor{
+    flex: 2;
+    font-size: 20px;
+    color:rgb(106, 106, 116);
+    line-height: 30px;
+    margin-left: 20px;
+}
+#lin{
+    color:rgb(223, 230, 230);
+    text-decoration: none;
+}
+#lin:hover{
+    color: orangered;
+}
+#linkt{
+    border: 3px solid rgb(45, 170, 170);
+    background-color:rgb(45, 170, 170);
+    font-size: 20px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 200px;
+    height: 40px;
+    border-color : rgb(45, 170, 170);
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(223, 230, 230);
+      
+}
+#linkt:hover{
+    color:rgb(223, 230, 230) ;
+    border: 2px solid orangered;
+    background-color:orangered;
+    border-color : orangered;
+}
+#hrl{
+    color: rgb(77, 89, 114);
+}
+.talk{
+    border: 15px solid green;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2px;
+}
+#footer{
+    justify-content:end;
+    background-color: rgb(36, 35, 35);
+    padding: 1%;
+}
+#footnote{
+    color: rgb(118, 171, 220);
+    font-size: 20px;
+    text-align: center;
+}
+#footnote a:link{
+    color: rgba(14, 206, 240, 0.798);
+    text-decoration: none;
+    font-size: 20px;
+}
+#footnote a:hover{
+    color: orangered;
+}
